@@ -1,0 +1,332 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    min-width: 200px;
+    max-width: 1900px;
+    background-color: blueviolet;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container img {
+    width: 60px;
+    height: 60px;
+}
+#block {
+    background-color: yellowgreen;
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+    font-size: 25px;
+    padding-top: 7px;
+
+}
+button {
+    background-color: orange;
+    border-radius: 15px;
+       font-size: 25px;
+    border: 0;
+    height: 40px;
+    width: 130px;
+}
+@media (max-width: 1200px) {
+    #block {
+        width: 100px;
+        height: 35px;
+        font-size: 22px;
+    }
+    button {
+        width: 100px;
+        height: 40px;
+        font-size: 22px;
+    }
+    .container img {
+    width: 50px;
+    height: 50px;
+}
+}
+@media (max-width: 900px) {
+     #block {
+        width:80px;
+        height: 25px;
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    button {
+        width: 80px;
+        height: 27px;
+        font-size: 18px;
+      
+    }
+    .container img {
+    width: 40px;
+    height: 40px;
+}
+}
+@media (max-width: 600px) {
+     #block {
+        width:60px;
+        height: 18px;
+        font-size: 15px;
+       
+    }
+    button {
+        width: 60px;
+        height: 20px;
+        font-size: 15px;
+      
+    }
+    .container img {
+    width: 30px;
+    height: 30px;
+}
+}
+@media (max-width: 475px) {
+    .container {
+        display: grid;
+    padding-top: 30px;
+    padding-bottom: 70px;
+        height: 130px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "dino btn"
+        "b1 b2"
+        "b3 b4";
+    }
+    .container img {
+    grid-area: dino;
+    position: relative;
+    left: 45px;
+    width: 50px;
+    height: 50px;
+    }
+    .b1 {
+        grid-area: b1;
+    }
+    .b2 {
+        grid-area: b2;
+       
+    }
+    .b3 {
+        grid-area: b3;
+    }
+    .b4 {
+        grid-area: b4;
+    }
+    button {
+        grid-area: btn;
+         width: 100px;
+        height: 30px;
+        font-size: 20px;
+        
+        position: relative;
+        left: 40px;
+        top: 10px;
+      
+    }
+    #block {
+        position: relative;
+        left: 40px;
+        width: 100px;
+        height: 30px;
+        font-size: 22px;
+        margin-top: 24px;
+    }
+
+}
+@media (max-width: 440px) {
+      .container {
+        display: grid;
+    padding-top: 30px;
+    padding-bottom: 70px;
+        height: 130px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "dino btn"
+        "b1 b2"
+        "b3 b4";
+    }
+    .container img {
+    grid-area: dino;
+    position: relative;
+    left: 35px;
+    width: 50px;
+    height: 50px;
+    }
+    .b1 {
+        grid-area: b1;
+    }
+    .b2 {
+        grid-area: b2;
+       
+    }
+    .b3 {
+        grid-area: b3;
+    }
+    .b4 {
+        grid-area: b4;
+    }
+    button {
+        grid-area: btn;
+         width: 100px;
+        height: 30px;
+        font-size: 20px;
+        
+        position: relative;
+        left: 30px;
+        top: 10px;
+      
+    }
+    #block {
+        position: relative;
+        left: 30px;
+        width: 100px;
+        height: 30px;
+        font-size: 22px;
+        margin-top: 24px;
+    }
+}
+@media (max-width: 365px) {
+    .container {
+        display: grid;
+    padding-top: 30px;
+    padding-bottom: 70px;
+        height: 130px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "dino btn"
+        "b1 b2"
+        "b3 b4";
+    }
+    .container img {
+    grid-area: dino;
+    position: relative;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    }
+    .b1 {
+        grid-area: b1;
+    }
+    .b2 {
+        grid-area: b2;
+       
+    }
+    .b3 {
+        grid-area: b3;
+    }
+    .b4 {
+        grid-area: b4;
+    }
+    button {
+        grid-area: btn;
+         width: 100px;
+        height: 30px;
+        font-size: 20px;
+        
+        position: relative;
+        left: 20px;
+        top: 10px;
+      
+    }
+    #block {
+        position: relative;
+        left: 20px;
+        width: 100px;
+        height: 30px;
+        font-size: 22px;
+        margin-top: 24px;
+    }
+}
+@media (max-width:300px) {
+    .container {
+        display: grid;
+    padding-top: 30px;
+    padding-bottom: 70px;
+        height: 130px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "dino btn"
+        "b1 b2"
+        "b3 b4";
+    }
+    .container img {
+    grid-area: dino;
+    position: relative;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    }
+    .b1 {
+        grid-area: b1;
+    }
+    .b2 {
+        grid-area: b2;
+       
+    }
+    .b3 {
+        grid-area: b3;
+    }
+    .b4 {
+        grid-area: b4;
+    }
+    button {
+        grid-area: btn;
+         width: 100px;
+        height: 30px;
+        font-size: 20px;
+        
+        position: relative;
+        left: 0px;
+        top: 10px;
+      
+    }
+    #block {
+        position: relative;
+        left: 0px;
+        width: 100px;
+        height: 30px;
+        margin-right: 10px;
+        font-size: 22px;
+        margin-top: 24px;
+    }
+}
+@media (max-width: 260px) {
+     .container {
+        display: grid;
+    padding-top: 10px;
+    padding-bottom: 70px;
+        height: 170px;
+        grid-template-columns: repeat(1, 1fr);
+      grid-template-areas: 
+        "dino"
+        "btn"
+        "b1"
+        "b2"
+        "b3"
+        "b4";
+        overflow: scroll;
+    }
+    #block {
+        width: 100px;
+        height: 30px;
+        position: relative;
+        left: 50px;
+    }
+    button {
+        position: relative;
+        left: 50px;
+    }
+    .container img {
+    position: relative;
+    left: 71px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+
+    }
+
+}
